@@ -91,7 +91,7 @@ Requirements
 #) You must declare resources with ``ensure_*`` functions if duplicate
    declaration error is expected, except the cases when you need to fail with
    duplicate declaration.
-#) If declarations must be with brackets.
+#) If conditions must be with brackets.
 
    Example::
 
