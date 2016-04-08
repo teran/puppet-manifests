@@ -15,7 +15,8 @@ master's(in case of `puppet agent` use) or target node(in case of `puppet
 apply`) use. In our Infra we're using puppet master and hiera to store
 sensitive data like passwords and keys.
 
-Hi level description for directories:
+High level description for directories:
+
  * bin - scripts, which are impossible to use from puppet manifests(for puppet
    master installation for instance)
  * docs - dev docs describes functions of some modules and contains some
